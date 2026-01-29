@@ -372,8 +372,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
-    /* Balanced padding */
+    padding: 0.5rem 0;
+    /* Padding reduced to 0.5rem per user request */
     position: relative;
     text-align: center;
     /* Center text globally in hero */
