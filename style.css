@@ -461,8 +461,8 @@ ul {
     .hero {
         align-items: flex-start;
         /* Move content to top */
-        padding-top: 1.5rem;
-        /* Padding adjusted to 1.5rem for mobile */
+        padding-top: 6rem;
+        /* Increased padding to 6rem to match reference image */
         min-height: auto;
         /* Allow height to be determined by content + padding if needed, or keep 100vh but top-aligned */
         padding-bottom: 4rem;
