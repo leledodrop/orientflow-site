@@ -372,8 +372,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 0;
-    /* Padding reduced to 0.5rem per user request */
+    padding: 1.5rem 0;
+    /* Padding increased to 1.5rem per user request */
     position: relative;
     text-align: center;
     /* Center text globally in hero */
@@ -461,8 +461,8 @@ ul {
     .hero {
         align-items: flex-start;
         /* Move content to top */
-        padding-top: 0;
-        /* Zero padding per user request */
+        padding-top: 1.5rem;
+        /* Padding adjusted to 1.5rem for mobile */
         min-height: auto;
         /* Allow height to be determined by content + padding if needed, or keep 100vh but top-aligned */
         padding-bottom: 4rem;
