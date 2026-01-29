@@ -1054,6 +1054,20 @@ footer {
     .cta-box {
         padding: 4rem 1.5rem;
     }
+
+    /* Force side-by-side layout for card headers on mobile */
+    .card-header-row {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        width: 100%;
+    }
+
+    .card-header-row h3 {
+        margin-bottom: 0 !important;
+        text-align: left !important;
+    }
 }
 
 section {
