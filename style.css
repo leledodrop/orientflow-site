@@ -71,8 +71,8 @@ h4,
 }
 
 h1 {
-    font-size: clamp(2.2rem, 4.5vw, 4rem);
-    /* Slightly reduced size */
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    /* 32px to 56px */
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 1.5rem;
@@ -80,7 +80,8 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    /* 24px to 36px */
     margin-bottom: 1rem;
     letter-spacing: -0.01em;
 }
