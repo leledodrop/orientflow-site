@@ -461,8 +461,8 @@ ul {
     .hero {
         align-items: flex-start;
         /* Move content to top */
-        padding-top: 6rem;
-        /* Increased padding to 6rem to match reference image */
+        padding-top: 8rem;
+        /* Increased padding to 8rem to definitely push content down */
         min-height: auto;
         /* Allow height to be determined by content + padding if needed, or keep 100vh but top-aligned */
         padding-bottom: 4rem;
@@ -476,8 +476,8 @@ ul {
     }
 
     .hero-logo-top {
-        margin-top: 0;
-        /* Adjusted to 0 per user request */
+        margin-top: 2rem;
+        /* added margin to force logo down */
     }
 }
 
