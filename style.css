@@ -610,23 +610,18 @@ ul {
 
 @media (max-width: 768px) {
     .hero {
-        align-items: flex-start;
-        /* Move content to top */
+        display: block;
+        /* Force block layout to respect content flow */
         padding-top: 8rem;
-        /* Increased padding to 8rem to definitely push content down */
         min-height: 100vh;
-        /* Allow it to be at least full screen */
         height: auto;
-        /* Let it expand if content is larger than screen */
         padding-bottom: 6rem;
-        /* Add breathing room at bottom */
     }
 
     .hero-container-center {
-        justify-content: flex-start;
-        /* Force content to top */
+        display: block;
+        /* Force block layout */
         height: auto;
-        /* Allow container to expand */
         padding-bottom: 2rem;
     }
 
