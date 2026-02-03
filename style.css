@@ -614,16 +614,20 @@ ul {
         /* Move content to top */
         padding-top: 8rem;
         /* Increased padding to 8rem to definitely push content down */
-        min-height: auto;
-        /* Allow height to be determined by content + padding if needed, or keep 100vh but top-aligned */
-        padding-bottom: 4rem;
-        height: 100vh;
-        /* Keep full viewport height */
+        min-height: 100vh;
+        /* Allow it to be at least full screen */
+        height: auto;
+        /* Let it expand if content is larger than screen */
+        padding-bottom: 6rem;
+        /* Add breathing room at bottom */
     }
 
     .hero-container-center {
         justify-content: flex-start;
         /* Force content to top */
+        height: auto;
+        /* Allow container to expand */
+        padding-bottom: 2rem;
     }
 
     .hero-logo-top {
